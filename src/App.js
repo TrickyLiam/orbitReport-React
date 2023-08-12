@@ -20,8 +20,8 @@ function App() {
     <div>
       <Banner />
       <Buttons
-      filterByType={filterByType}
-      setSat={setSat}
+        filterByType={filterByType}
+        setSat={setSat}
         displaySats={displaySats}
       />
       <Table sat = {sat} />
